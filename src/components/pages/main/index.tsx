@@ -1,7 +1,8 @@
-import { Button, Col, Row } from 'antd';
+import { Button } from 'antd';
 import React, { useEffect, useState } from 'react';
 import mediumLogo from 'images/medium_logo2.png';
 import mediumLogoText from 'images/medium_logo.png';
+import 'antd/dist/antd.css';
 import AvatarComponent from './Avatar';
 
 
@@ -24,7 +25,7 @@ const Main = () => {
     };
 
     useEffect(() => {
-        setIsLoggedIn(false);
+        setIsLoggedIn(true);
     }, [])
     return(
         <>
